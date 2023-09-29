@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {HomeNotes} from "../src/templates/HomeNotes";
+import {HomeNotes} from './templates/HomeNotes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

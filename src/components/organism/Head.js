@@ -7,10 +7,10 @@ import {Options} from '../organism/Options';
 export function Head(Props){
     
     return <header className='container head'>
-            <Title name="My Notes" className="title"/> 
+            <Title name="My Notes" className="title" method={Props.home}/> 
             <Buscador onSearch={Props.onSearch}/>
             <Options method={Props.method}/>
-    </header>
+    </header> 
 
             
 }

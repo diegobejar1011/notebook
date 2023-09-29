@@ -3,7 +3,7 @@ import {IconButton} from '../molecules/IconButton';
 
 export function Options(Props) {
 
-  const categories = ["Personal", "Trabajo", "Escuela"];
+  const categories = ["Personal", "Trabajo", "Académico"];
 
 
   const handleCategory = (name)=>{
